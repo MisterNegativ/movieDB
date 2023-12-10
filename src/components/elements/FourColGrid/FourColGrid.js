@@ -12,7 +12,9 @@ const FourColGrid = props => {
                 </div>
             );
         });
+        return gridElements;
     };
+
 
     return (
         <div className="rmdb-grid">
